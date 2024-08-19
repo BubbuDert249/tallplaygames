@@ -1,0 +1,17 @@
+loopRequest()
+@import SCRATCH_DATABASE_SERVERS
+@import ApiControlPad
+@import ScratWarPenBub
+get(https://scratch.mit.edu/api/?authcode=0204828573900193576/?hostrequest=tallplay.jp/)
+get(https://turbowarp.org/scratchapi/?hostrequesturl=tallplay.jp/)
+get(https://penguinmod.com/server/apis/scratch.api/)
+get(https://bubbudert249.editorx.io/bubbumod-site/scratchapi/)
+requestAll() as.API.databaseserver0001
+
+=pause-end=
+
+1get=scratch
+2get=turbowarp
+3get=penguinmod
+4get=bubbumod
+return loopRequest();
